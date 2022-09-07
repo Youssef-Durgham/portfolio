@@ -49,7 +49,7 @@ const About = () => {
         </div>
       </div>
       <div className="text-center mx-auto">
-        <div className="mx-auto mt-[600px]  t:mr-20 t:-mt-[40px] ll:-mt-[600px] l:-mt-[350px] border-0 w-[200px] h-full rounded-t-full">
+        <div className="mx-auto mt-[550px]  t:mr-20 t:-mt-[40px] ll:-mt-[600px] l:-mt-[350px] border-0 w-[200px] h-full rounded-t-full">
           <div className="text-[#ffffff] 4k:text-3xl">YEARS OF EXPERIENCE</div>
           <div className="mt-5 text-left ml-16 text-4xl text-slate-300">6</div>
           <div className="text-[#ffffff] mt-10 4k:text-3xl">
