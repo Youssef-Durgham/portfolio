@@ -1,5 +1,5 @@
 import Head from "next/head";
-
+import Link from 'next/link'
 import Header from "../components/Header";
 import { TerminalIcon, UserCircleIcon } from "@heroicons/react/solid";
 
@@ -44,7 +44,9 @@ export default function Home() {
           </div>
         </div>
         <div className="flex">
-        <a href="/files/cv.pdf" target="_blank" className="z-30 mx-auto mt-5 mt-35"><button type="button" className="  px-5 py-3 4k:px-7 4k:py-5 font-semibold rounded-2xl bg-[#14243c] text-white">MY CV</button></a>
+          <Link href="/files/cv.pdf" target="_blank">
+        <a  className="z-30 mx-auto mt-5 mt-35"><button type="button" className="  px-5 py-3 4k:px-7 4k:py-5 font-semibold rounded-2xl bg-[#14243c] text-white">MY CV</button></a>
+        </Link>
         </div>
         
         <div className="flex flex-row">

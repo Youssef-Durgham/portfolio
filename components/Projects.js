@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-
+import Link from 'next/link'
 
 const Projects = () => {
   return (
@@ -36,8 +36,10 @@ const Projects = () => {
                 <div className="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Node.js</div>
                 
                 </div>
+                <Link href="https://disneyclone-six.vercel.app/">
+                <a  className="mt-10"><button type="button" className=" px-5 py-3 font-semibold rounded-2xl bg-[#14243c] text-white">Live View</button></a>
+                </Link>
                 
-                <a href="https://disneyclone-six.vercel.app/" className="mt-10"><button type="button" className=" px-5 py-3 font-semibold rounded-2xl bg-[#14243c] text-white">Live View</button></a>
                 
                 </div>
 
@@ -57,7 +59,10 @@ const Projects = () => {
                 
                 </div>
                 
-                <a href="https://t.me/AY_ROCKET_TRACKER" className="mt-10"><button type="button" className="flex   px-5 py-3 font-semibold rounded-2xl bg-[#14243c] text-white">Live View</button></a>
+                <Link href="https://t.me/AY_ROCKET_TRACKER">
+                <a  className="mt-10"><button type="button" className=" px-5 py-3 font-semibold rounded-2xl bg-[#14243c] text-white">Live View</button></a>
+                </Link>
+                
                 
                 </div>
                 
