@@ -71,7 +71,7 @@ export default function Home() {
         </div>
         <div className=" justify-center absolute bottom-0 left-1/2 transform -translate-x-1/2  text-xl font-Fredoka">
         <div className="box-border  mm:w-72 4k:w-96 4k:h-72 4k:text-4xl    p-4 z-30 flex-col  bg-[#2A29E8] bg-opacity-70 self-end text-[#F9E490] text-left pt-5 rounded-t-3xl">
-          I`m a communication engineer and i`m specializing in building web as a <a class="underline decoration-wavy">full-stack</a> developer
+          I`m a communication engineer and i`m specializing in building web as a <a className="underline decoration-wavy">full-stack</a> developer
         </div>
         </div>
       </div>

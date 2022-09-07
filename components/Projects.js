@@ -26,14 +26,14 @@ const Projects = () => {
                 <div className='mt-10 font-normal'>Disney clone is a movie platform that clone the orignal disney plus</div>
                 <div className='font-normal mt-5'>build using:</div>
                 <div className=" grid grid-cols-2 t:grid-cols-4 gap-2 place-items-center grid-flow-row-dense font-normal justify-between">
-                <div class="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">React.js</div>
-                <div class="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Next.js</div>
-                <div class="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Mongodb</div>
-                <div class="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Firebase</div>
-                <div class="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Tailwindcss</div>
-                <div class="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">js</div>
-                <div class="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Next-auth</div>
-                <div class="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Node.js</div>
+                <div className="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">React.js</div>
+                <div className="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Next.js</div>
+                <div className="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Mongodb</div>
+                <div className="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Firebase</div>
+                <div className="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Tailwindcss</div>
+                <div className="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">js</div>
+                <div className="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Next-auth</div>
+                <div className="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Node.js</div>
                 
                 </div>
                 
@@ -50,10 +50,10 @@ const Projects = () => {
                 <div className='mt-10 font-normal'>Analyt telegram bot tracks all buys and sells orders on 7 cryptocurrency platforms. When a large sell or buy order is done, a direct alert is sent.</div>
                 <div className='font-normal mt-5'>build using:</div>
                 <div className=" grid grid-cols-2 t:grid-cols-4 gap-2 place-items-center grid-flow-row-dense font-normal justify-between">
-                <div class="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Node.js</div>
-                <div class="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Express.js</div>
-                <div class="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">js</div>
-                <div class="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Mongodb</div>
+                <div className="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Node.js</div>
+                <div className="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Express.js</div>
+                <div className="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">js</div>
+                <div className="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Mongodb</div>
                 
                 </div>
                 
