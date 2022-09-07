@@ -32,7 +32,7 @@ export default function Home() {
         </div>
         <div className="h-screen">
         <div className="flex">
-          <div className="z-30 mx-auto mt-20 4k:mt-96 border-2 border-[#140A44] rounded-3xl bg-white w-72 text-sm t:w-96 t:text-xl ll:w-[500px] 4k:w-[1000px] 4k:h-[60px] ll:text-2xl text-center text-[#140A44] 4k:text-5xl 4k:pt-2 font-Josefin">
+          <div className="z-30 mx-auto mt-20 4k:mt-40 border-2 border-[#140A44] rounded-3xl bg-white w-72 text-sm t:w-96 t:text-xl ll:w-[500px] 4k:w-[1000px] 4k:h-[60px] ll:text-2xl text-center text-[#140A44] 4k:text-5xl 4k:pt-2 font-Josefin">
           <UserCircleIcon className="w-5 h-5 t:w-6 t:h-6 ll:h-8 ll:w-8 4k:h-12 4k:w-12 absolute" />
             MY NAME IS YOUSEF DURGHAM
           </div>
