@@ -85,6 +85,13 @@ const About = () => {
               />
               REACT
             </div>
+<div className="t:w-6 t:h-6 4k:w-16 4k:h-16 w-12 h-12 rounded">
+              <img
+                src="/Image/react-native-logo-2.png"
+                alt="image"
+              />
+              REACT NATIVE
+            </div>
             <div className="t:w-5 t:h-5 4k:w-12 4k:h-12 w-10 h-10 rounded">
               <img
                 src="/Image/next.png"
