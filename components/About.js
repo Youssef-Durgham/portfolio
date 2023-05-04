@@ -56,135 +56,36 @@ const About = () => {
             LANGUAGES & FRAMEWORKS & SOFTWARE LEARNED
           </div>
           <div className="mt-5 text-left ml-16 text-4xl text-slate-300">17</div>
-          <div className="container grid grid-cols-3 gap-2 4k:gap-10 mx-auto mt-10 gap-y-7 text-center 4k:text-lg text-sm  text-slate-300 contrast-125">
-            <div className="t:w-7 t:h-7 4k:w-16 4k:h-16 w-12 h-12 rounded -mt-1">
-              <img
-                src="/Image/html.png"
-                alt="image"
-              />
-              HTML5
-            </div>
-            <div className="t:w-5 t:h-5 4k:w-12 4k:h-12 w-9 h-9 rounded">
-              <img
-                src="/Image/css.png"
-                alt="image"
-              />
-              CSS3
-            </div>
-            <div className="t:w-7 t:h-7 4k:w-16 4k:h-16 w-12 h-12 rounded -mt-1">
-              <img
-                src="/Image/js.png"
-                alt="image"
-              />
-              JS
-            </div>
-            <div className="t:w-6 t:h-6 4k:w-16 4k:h-16 w-12 h-12 rounded">
-              <img
-                src="/Image/react.png"
-                alt="image"
-              />
-              REACT
-            </div>
-<div className="t:w-6 t:h-6 4k:w-16 4k:h-16 w-12 h-12 rounded">
-              <img
-                src="/Image/react-native-logo-2.png"
-                alt="image"
-              />
-              REACT NATIVE
-            </div>
-            <div className="t:w-5 t:h-5 4k:w-12 4k:h-12 w-10 h-10 rounded">
-              <img
-                src="/Image/next.png"
-                alt="image"
-              />
-              NEXT
-            </div>
-            <div className="t:w-5 t:h-5 4k:w-12 4k:h-12 w-10 h-10 rounded">
-              <img
-                src="/Image/nextauth.png"
-                alt="image"
-              />
-              NEXTAUTH
-            </div>
-            <div className="t:w-5 t:h-5 4k:w-12 4k:h-12 w-10 h-10 rounded">
-              <img
-                src="/Image/redux.png"
-                alt="image"
-              />
-              REDUX
-            </div>
-            <div className="t:w-5 t:h-5 4k:w-12 4k:h-12 w-10 h-10 rounded">
-              <img
-                src="/Image/reduxtoolkit.png"
-                alt="image"
-              />
-              RTK
-            </div>
-            <div className="t:h-10 t:w-10 4k:w-20 4k:h-20 w-16 h-16 rounded">
-              <img
-                src="/Image/reduxsaga.png"
-                alt="image"
-              />
-              RS
-            </div>
-            <div className="t:w-5 t:h-5 4k:w-12 4k:h-12 w-10 h-10 mt-3 rounded">
-              <img
-                src="/Image/tailwindcss.png"
-                alt="image"
-              />
-              TAILWIND
-            </div>
-            <div className="t:w-5 t:h-5 4k:w-12 4k:h-12 w-10 h-10 rounded">
-              <img
-                src="/Image/sass.png"
-                alt="image"
-              />
-              SASS
-            </div>
-            <div className="t:w-5 t:h-5 4k:w-12 4k:h-12 w-10 h-10 rounded">
-              <img
-                src="/Image/mongodb.png"
-                alt="image"
-              />
-              MONGO
-            </div>
-            <div className="t:w-5 t:h-5 4k:w-12 4k:h-12 w-10 h-10 rounded">
-              <img
-                src="/Image/firebase.png"
-                alt="image"
-              />
-              FIREBASE
-            </div>
-            <div className="t:w-5 t:h-5 4k:w-12 4k:h-12 w-10 h-10 rounded">
-              <img
-                src="/Image/strapi.svg"
-                alt="image"
-              />
-              STRAPI
-            </div>
-            <div className="t:w-5 t:h-5 4k:w-12 4k:h-12 w-10 h-10 rounded">
-              <img
-                src="/Image/c++.png"
-                alt="image"
-              />
-              C++
-            </div>
-            <div className="t:w-5 t:h-5 4k:w-12 4k:h-12 w-10 h-10 rounded">
-              <img
-                src="/Image/figma.png"
-                alt="image"
-              />
-              FIGMA
-            </div>
-            <div className="t:w-5 t:h-5 4k:w-12 4k:h-12 w-10 h-10 rounded">
-              <img
-                src="/Image/illustrator.png"
-                alt="image"
-                className="ml-5"
-              />
-              ILLUSTRATOR 
-            </div>
-          </div>
+          <div className="container grid grid-cols-3 gap-2 4k:gap-10 mx-auto mt-10 gap-y-7 text-center 4k:text-lg text-sm text-slate-300 contrast-125">
+  {[
+    { src: "/Image/html.png", alt: "HTML5", label: "HTML5" },
+    { src: "/Image/css.png", alt: "CSS3", label: "CSS3" },
+    { src: "/Image/js.png", alt: "JS", label: "JS" },
+    { src: "/Image/react.png", alt: "react", label: "REACT.JS" },
+    { src: "/Image/react-native-logo-2.png", alt: "React-native", label: "REACT-NATIVE" },
+    { src: "/Image/next.png", alt: "next", label: "NEXT.JS" },
+    { src: "/Image/nextauth.png", alt: "Neaxtauth", label: "NEXT-AUTH" },
+    { src: "/Image/redux.png", alt: "redux", label: "REDUX" },
+    { src: "/Image/reduxtoolkit.png", alt: "reduxtoolkit", label: "REDUX-TOOL-KIT" },
+    { src: "/Image/reduxsaga.png", alt: "reduxsaga", label: "REDUX-SAGA" },
+    { src: "/Image/tailwindcss.png", alt: "tailwindcss", label: "TAILWIND CSS" },
+    { src: "/Image/sass.png", alt: "Sass", label: "SASS" },
+    { src: "/Image/mongodb.png", alt: "mongodb", label: "MONGO DB" },
+    { src: "/Image/firebase.png", alt: "Firebase", label: "FIREBASE" },
+    { src: "/Image/c++.png", alt: "C++", label: "C++" },
+    { src: "/Image/strapi.svg", alt: "strapi", label: "STRAPI" },
+    { src: "/Image/figma.png", alt: "Figma", label: "FIGMA" },
+    { src: "/Image/illustrator.png", alt: "illustrator", label: "ILLUSTRATOR" },
+  ].map((item) => (
+    <div key={item.alt} className="flex flex-col items-center space-y-2">
+      <div className="w-12 h-12 4k:w-16 4k:h-16 rounded">
+        <img src={item.src} alt={item.alt} className="object-contain" />
+      </div>
+      <div className="text-slate-300">{item.label}</div>
+    </div>
+  ))}
+</div>
+
         </div>
       </div>
       </div>
