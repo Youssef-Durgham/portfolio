@@ -19,7 +19,9 @@ const Projects = () => {
       </div>
       <div className="grid place-items-center mx-auto mt-20">
       <div className="">
+    <Link href="https://main.d2gayeidqn12dv.amplifyapp.com/">
       <Image src={"/Image/disney.jpg"} width={700} height={500} className="rounded-3xl "></Image>
+    </Link>
                 
       </div>
       <div className='grid  place-items-center  mt-5 t:mt-5 t:text-2xl font-bold text-xl l:text-3xl'>Disney clone
@@ -36,7 +38,7 @@ const Projects = () => {
                 <div className="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Node.js</div>
                 
                 </div>
-                <Link href="https://disneyclone-six.vercel.app/">
+                <Link href="https://main.d2gayeidqn12dv.amplifyapp.com/">
                 <a  className="mt-10"><button type="button" className=" px-5 py-3 font-semibold rounded-2xl bg-[#14243c] text-white">Live View</button></a>
                 </Link>
                 
