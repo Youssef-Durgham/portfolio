@@ -20,7 +20,7 @@ const Projects = () => {
       <div className="grid place-items-center mx-auto mt-20">
       <div className="">
     <Link href="https://main.d2gayeidqn12dv.amplifyapp.com/">
-      <Image src={"/Image/disney.jpg"} width={700} height={500} className="rounded-3xl "></Image>
+      <Image src={"/Image/disney.jpg"} width={700} height={500} className="rounded-3xl cursor-pointer"></Image>
     </Link>
                 
       </div>
@@ -47,8 +47,9 @@ const Projects = () => {
 
 
                 <div className="mt-20 t:mt-40">
-      <Image src={"/Image/telegrambot.jpg"} width={700} height={500} className="rounded-3xl "></Image>
-                
+                  <Link href="https://t.me/AY_ROCKET_TRACKER">
+      <Image src={"/Image/telegrambot.jpg"} width={700} height={500} className="rounded-3xl cursor-pointer"></Image>
+                </Link>
       </div>
       <div className='grid  place-items-center mb-20  mt-5 t:mt-5 t:text-2xl font-bold text-xl l:text-3xl'>Analyt telegram bot
                 <div className='mt-10 font-normal'>Analyt telegram bot tracks all buys and sells orders on 7 cryptocurrency platforms. When a large sell or buy order is done, a direct alert is sent.</div>
