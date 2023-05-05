@@ -44,6 +44,32 @@ const Projects = () => {
                 
                 
                 </div>
+                      <div className="">
+    <Link href="https://main.d3jendtebv8n87.amplifyapp.com">
+      <Image src={"/Image/2023-05-05 14.12.28.jpg"} width={700} height={500} className="rounded-3xl cursor-pointer"></Image>
+    </Link>
+                
+      </div>
+      <div className='grid  place-items-center  mt-5 t:mt-5 t:text-2xl font-bold text-xl l:text-3xl'>Amazon clone
+                <div className='mt-10 font-normal'>Amazon clone is a e-commerce platform that clone the orignal Amazon platform</div>
+                <div className='font-normal mt-5'>build using:</div>
+                <div className=" grid grid-cols-2 t:grid-cols-4 gap-2 place-items-center grid-flow-row-dense font-normal justify-between">
+                <div className="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">React.js</div>
+                <div className="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Next.js</div>
+                <div className="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Mongodb</div>
+                <div className="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Firebase</div>
+                <div className="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Tailwindcss</div>
+                <div className="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">js</div>
+                <div className="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Next-auth</div>
+                <div className="d-inline-flex p-1 bg-[#95D5ED] w-fit mt-5">Node.js</div>
+                
+                </div>
+                <Link href="https://main.d3jendtebv8n87.amplifyapp.com">
+                <a  className="mt-10"><button type="button" className=" px-5 py-3 font-semibold rounded-2xl bg-[#14243c] text-white">Live View</button></a>
+                </Link>
+                
+                
+                </div>
 
 
                 <div className="mt-20 t:mt-40">
