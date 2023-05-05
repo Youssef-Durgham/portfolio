@@ -44,7 +44,7 @@ const Projects = () => {
                 
                 
                 </div>
-                      <div className="">
+                <div className="mt-20 t:mt-40">
     <Link href="https://main.d3jendtebv8n87.amplifyapp.com">
       <Image src={"/Image/2023-05-05 14.12.28.jpg"} width={700} height={500} className="rounded-3xl cursor-pointer"></Image>
     </Link>
